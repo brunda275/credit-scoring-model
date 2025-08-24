@@ -77,10 +77,12 @@ credit-scoring-model/
 
 ---
 
-**📜 License**
+## 📜 License
+
 This project is licensed under the MIT License — see LICENSE.
 
-**👨‍💻 Author**
+## 👨‍💻 Author
+
 Adapa Brunda Mani
 B.Tech, Artificial Intelligence and Machine Learning
 SRM Institute of Science and Technology, Ramapuram
