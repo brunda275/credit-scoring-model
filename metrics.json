@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "Model": "LogReg",
+      "Accuracy": 0.8041666666666667,
+      "Precision(macro)": 0.6581547347621219,
+      "Recall(macro)": 0.8653478593272171,
+      "F1(macro)": 0.7059060369680541,
+      "ROC-AUC(ovr,macro)": 0.9230351228887534
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.7833333333333333,
+      "Precision(macro)": 0.527260129969419,
+      "Recall(macro)": 0.527260129969419,
+      "F1(macro)": 0.527260129969419,
+      "ROC-AUC(ovr,macro)": 0.9025992574239433
+    },
+    {
+      "Model": "RandomForest",
+      "Accuracy": 0.7791666666666667,
+      "Precision(macro)": 0.5249607759235487,
+      "Recall(macro)": 0.5255638379204893,
+      "F1(macro)": 0.5250269475163621,
+      "ROC-AUC(ovr,macro)": 0.8995678988025183
+    }
+  ],
+  "best": {
+    "Model": "LogReg",
+    "Accuracy": 0.8041666666666667,
+    "Precision(macro)": 0.6581547347621219,
+    "Recall(macro)": 0.8653478593272171,
+    "F1(macro)": 0.7059060369680541,
+    "ROC-AUC(ovr,macro)": 0.9230351228887534
+  }
+}
