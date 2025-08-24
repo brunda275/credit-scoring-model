@@ -44,9 +44,10 @@ credit-scoring-model/
 ---
 
  **🚀 How to Run Locally**
- 
+ ```bash
+
 **1) Clone**
-```bash
+
 git clone https://github.com/YOUR_USERNAME/credit-scoring-model.git
 cd credit-scoring-model
 
