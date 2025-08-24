@@ -46,41 +46,41 @@ credit-scoring-model/
  **🚀 How to Run Locally**
 
 
-**1) Clone**
-     ```bash
-     git clone https://github.com/YOUR_USERNAME/credit-scoring-model.git
-     cd credit-scoring-model
+1) Clone:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/credit-scoring-model.git
+   cd credit-scoring-model
   
-**2) Create a virtualenv**
-     ```bash
-     # Windows (PowerShell)
-     py -m venv .venv
-     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-     .\.venv\Scripts\Activate.ps1
-     python3 -m venv .venv
-     source .venv/bin/activate
+2) Create a virtualenv:
+   ```bash
+   # Windows (PowerShell)
+   py -m venv .venv
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   .\.venv\Scripts\Activate.ps1
+   python3 -m venv .venv
+   source .venv/bin/activate
 
-**3) Install dependencies**
-     ```bash
-     python -m pip install --upgrade pip
-     pip install -r requirements.txt
+3) Install dependencies:
+   ```bash
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
 
-**4) Model Training**
-    ```bash
-    python train.py --data credit_scoring_sample.csv --target Risk_good --smote on
-    python app.py
+4) Model Training:
+   ```bash
+   python train.py --data credit_scoring_sample.csv --target Risk_good --smote on
+   python app.py
 
-**5) Deployment**
-     ```bash
-     python app.py
-     Open the app at http://127.0.0.1:7860
+5) Deployment:
+   ```bash
+   python app.py
+   Open the app at http://127.0.0.1:7860
 
 ---
 
-📜 License
+**📜 License**
 This project is licensed under the MIT License — see LICENSE.
 
-👨‍💻 Author
+**👨‍💻 Author**
 Adapa Brunda Mani
 B.Tech, Artificial Intelligence and Machine Learning
 SRM Institute of Science and Technology, Ramapuram
